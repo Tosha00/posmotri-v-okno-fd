@@ -57,10 +57,7 @@ ol {
   inline-size: 1140px;
 }
 
-.content__details {
-  position: relative;
-  top: -6px;
-}
+
 
 .result__video-container {
   position: relative;
@@ -194,6 +191,8 @@ ol {
 .content__details {
   flex-grow: 1;
   align-self: stretch;
+	position: relative;
+  top: -6px;
 }
 
 .title {
