@@ -124,7 +124,7 @@ ol {
   flex: 1 1 auto;
   height: 27px;
   border-style: solid;
-  border-color: #fff;
+  border-color: currentColor;
   border-inline-width: 0;
   border-block-width: 1px;
   padding: 0;
@@ -173,7 +173,7 @@ ol {
 }
 
 .button {
-  border: 1px solid #fff;
+  border: 1px solid currentColor;
   padding-block: 6px;
   color: currentColor;
   font-weight: 700;
@@ -257,7 +257,7 @@ ol {
 
 .content__video-card-title {
   overflow: hidden;
-  font-family: Oswald;
+  font-family: Oswald, sans-serif;
   font-weight: 700;
   font-size: 30px;
   text-transform: uppercase;
